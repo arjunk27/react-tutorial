@@ -1,15 +1,12 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-
-const Home = () => {
-  return <p>tt</p>;
-};
+import UseContextExample from "./Intermediate/MoreHooks/useContext";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<UseContextExample />} />
       </Routes>
     </div>
   );
